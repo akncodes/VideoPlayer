@@ -64,4 +64,4 @@ function openFullscreen() {
     full.msRequestFullscreen();
   }
 }
-full.addEventListener('click',openFullscreen)
+player.addEventListener('click',openFullscreen)
