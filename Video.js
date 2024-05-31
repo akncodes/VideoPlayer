@@ -58,9 +58,9 @@ progress.addEventListener('mouseup', () => mousedown = false);
 function openFullscreen() {
   if (full.requestFullscreen) {
     full.requestFullscreen();
-  } else if (elem.webkitRequestFullscreen) { /* Safari */
+  } else if (video.webkitRequestFullscreen) { /* Safari */
     full.webkitRequestFullscreen();
-  } else if (elem.msRequestFullscreen) { /* IE11 */
+  } else if (video.msRequestFullscreen) { /* IE11 */
     full.msRequestFullscreen();
   }
 }
